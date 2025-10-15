@@ -2,19 +2,19 @@
 Send from nockchain CLI with easy
 Utilisation :
 # Rendre les scripts exécutables
-chmod +x nockchain_send.sh check_balance.sh
+chmod +x sender.sh sold.sh
 
 # Vérifier le solde (node public)
-./check_balance.sh
+./sold.sh
 
 # Vérifier le solde (node privé)
-./check_balance.sh --private
+./sold.sh --private
 
 # Envoyer avec cumul automatique de notes (node public)
-./nockchain_send.sh <adresse> 100
+./sender.sh <adresse> 100
 
 # Envoyer avec cumul automatique de notes (node privé)
-./nockchain_send.sh <adresse> 100 --private
+./sender.sh <adresse> 100 --private
 
 Nouvelles fonctionnalités :
 ✅ Cumul automatique de plusieurs notes pour gros montants
